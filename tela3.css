@@ -1,0 +1,98 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #72a270;
+	color: #ffffff;
+}
+
+h1 {
+	text-align: center;
+}
+
+#login {
+	width: 40%;
+	height: auto;
+	border: none;
+	background-color: white;
+	margin: 0 auto;
+	position: absolute;
+	left: 30%;
+	top: 15%;
+
+}
+
+#formulario {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+#header {
+	background-color: #1c2c4d;
+	display: flex;
+	flex-wrap: wrap;
+	    padding: 10px;
+}
+
+#profile-name {
+	margin: 5% 20% 0 5%;
+	line-height: 5px;
+}
+
+img {
+	border-radius: 50%;
+	width: 20%;
+	height: 20%;
+	margin: 5%;
+}
+
+hr {
+	text-align: center;
+	width: 90%;
+	size: 0.1;
+	color: #b1aeae;
+}
+
+.profile-properties {
+	display: flex;
+	flex-direction: row;
+}
+
+.profile-properties li {
+	list-style-type: none;
+     padding: 0 10px;
+    text-align: center;
+
+}
+
+span { 
+	display: block;
+}
+
+#links{
+	color: #b1aeae;
+	width: 100%;
+}
+
+#profile-info {
+    padding: 0;
+}
+#profile-info li{
+	list-style-type: none;
+	padding: 10px;
+}
+
+#profile-info hr {
+	width: 100%;
+}
+
+#profile-info li span {
+	display: inline-block;
+}
+
+#profile-info span {
+	text-align: right;
+}
+
