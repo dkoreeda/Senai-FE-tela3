@@ -93,7 +93,10 @@ span {
 	display: inline-block;
 }
 
-#profile-info span {
-	text-align: right;
+#counter {
+	background-color: #1c2c4d;
+	padding: 5px 10px;
+	border-radius: 15%;
+	left: 85%;
+	position: absolute;
 }
-
