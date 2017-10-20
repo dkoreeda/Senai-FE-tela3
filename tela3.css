@@ -10,14 +10,14 @@ h1 {
 }
 
 #login {
-	width: 40%;
+	width: 80%;
 	height: auto;
 	border: none;
 	background-color: white;
-	margin: 0 auto;
 	position: absolute;
-	left: 30%;
-	top: 15%;
+	left: 10%;
+    top: 15%;
+
 
 }
 
@@ -33,7 +33,7 @@ h1 {
 	background-color: #1c2c4d;
 	display: flex;
 	flex-wrap: wrap;
-	    padding: 10px;
+	width: 100%;
 }
 
 #profile-name {
@@ -58,12 +58,14 @@ hr {
 .profile-properties {
 	display: flex;
 	flex-direction: row;
+	    padding: 0;
 }
 
 .profile-properties li {
 	list-style-type: none;
      padding: 0 10px;
     text-align: center;
+    font-size: 0.9em;
 
 }
 
